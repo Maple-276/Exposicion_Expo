@@ -21,6 +21,14 @@
     @include('components.slides.slide16', ['active' => false])
     @include('components.slides.slide17', ['active' => false])
     @include('components.slides.slide18', ['active' => false])
+    @include('components.slides.slide19', ['active' => false])
+    @include('components.slides.slide20', ['active' => false])
+    @include('components.slides.slide21', ['active' => false])
+    @include('components.slides.slide22', ['active' => false])
+    @include('components.slides.slide23', ['active' => false])
+    @include('components.slides.slide24', ['active' => false])
+    @include('components.slides.slide25', ['active' => false])
+    @include('components.slides.slide26', ['active' => false])
 
     @include('components.navigation-controls')
 @endsection
