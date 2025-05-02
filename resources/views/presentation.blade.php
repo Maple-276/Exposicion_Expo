@@ -17,6 +17,10 @@
     @include('components.slides.slide12', ['active' => false])
     @include('components.slides.slide13', ['active' => false])
     @include('components.slides.slide14', ['active' => false])
+    @include('components.slides.slide15', ['active' => false])
+    @include('components.slides.slide16', ['active' => false])
+    @include('components.slides.slide17', ['active' => false])
+    @include('components.slides.slide18', ['active' => false])
 
     @include('components.navigation-controls')
 @endsection
