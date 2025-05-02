@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
             slides.forEach(slide => slide.classList.remove('active'));
             slides[index].classList.add('active');
             slideNumber.textContent = `${index + 1} / ${slides.length}`;
+            
+            // Disparar un evento personalizado que indique el cambio de diapositiva
+            document.dispatchEvent(new CustomEvent('slideChanged', { 
+                detail: { 
+                    currentSlide: index,
+                    totalSlides: slides.length
+                } 
+            }));
         }
 
         // Función para ir a la siguiente diapositiva

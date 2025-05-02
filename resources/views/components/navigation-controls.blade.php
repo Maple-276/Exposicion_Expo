@@ -2,4 +2,4 @@
     <button onclick="window.prevSlide()" class="nav-button">Anterior</button>
     <button onclick="window.nextSlide()" class="nav-button">Siguiente</button>
 </div>
-<div class="slide-number" id="slideNumber">1 / 11</div> 
+<div class="slide-number" id="slideNumber">1 / 12</div> 
